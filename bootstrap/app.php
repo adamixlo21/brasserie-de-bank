@@ -28,6 +28,8 @@ return Application::configure(basePath: dirname(__DIR__))
             'webhooks/mollie',
         ]);
 
+        $middleware->trustProxies(at: '*');
+
         $middleware->encryptCookies(except: ['appearance', 'sidebar_state']);
 
         $middleware->web(append: [

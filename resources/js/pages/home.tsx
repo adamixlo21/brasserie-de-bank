@@ -1314,24 +1314,24 @@ export default function Home({ featuredDishes, actualiteiten }: Props) {
                 </section>
             </main>
 
-            {/* MOBILE RESERVATION */}
-            <div className="fixed right-4 bottom-4 left-4 z-40 lg:hidden">
-                <Link
-                    href="/reservation"
-                    className="flex items-center justify-between bg-[#5d6948] px-6 py-4 text-[10px] tracking-[0.22em] text-white uppercase shadow-[0_15px_40px_rgba(32,35,31,0.2)]"
-                >
-                    Reserveer een tafel
-                    <span>→</span>
-                </Link>
-            </div>
+            {/*/!* MOBILE RESERVATION *!/*/}
+            {/*<div className="fixed right-4 bottom-4 left-4 z-40 lg:hidden">*/}
+            {/*    <Link*/}
+            {/*        href="/reservation"*/}
+            {/*        className="flex items-center justify-between bg-[#5d6948] px-6 py-4 text-[10px] tracking-[0.22em] text-white uppercase shadow-[0_15px_40px_rgba(32,35,31,0.2)]"*/}
+            {/*    >*/}
+            {/*        Reserveer een tafel*/}
+            {/*        <span>→</span>*/}
+            {/*    </Link>*/}
+            {/*</div>*/}
 
-            <button
-                type="button"
-                data-zc-action="open"
-                className="rounded-full bg-[#5d6948] px-8 py-4 text-white"
-            >
-                Reserveer een tafel
-            </button>
+            {/*<button*/}
+            {/*    type="button"*/}
+            {/*    data-zc-action="open"*/}
+            {/*    className="rounded-full bg-[#5d6948] px-8 py-4 text-white"*/}
+            {/*>*/}
+            {/*    Reserveer een tafel*/}
+            {/*</button>*/}
 
             <Footer />
 
